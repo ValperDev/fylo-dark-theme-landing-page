@@ -1,0 +1,43 @@
+:root {
+    --blue: hsl(198, 60%, 50%);
+    --cyan: hsl(176, 68%, 64%);
+    --dark-blue-email-bg: hsl(217, 28%, 15%);
+    --dark-blue-main-bg: hsl(218, 28%, 13%);
+    --dark-blue-footer-bg: hsl(216, 53%, 9%);
+    --dark-blue-testimonials-bg: hsl(219, 30%, 18%);
+    --light-red: hsl(0, 100%, 63%);
+    --white: hsl(0, 0%, 100%);
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100dvh;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 10dvh;
+}
+
+ul {
+    list-style: none;
+}
