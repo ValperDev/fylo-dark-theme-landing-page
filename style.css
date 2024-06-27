@@ -23,7 +23,7 @@ a {
 }
 
 body {
-    background-color: var(--dark-blue-main-bg);
+    background-color: var(--dark-blue-email-bg);
     color: var(--white);
     min-height: 100dvh;
 }
@@ -42,4 +42,27 @@ main {
 
 ul {
     list-style: none;
+}
+
+.features {
+    align-items: center;
+    background-color: var(--dark-blue-main-bg);
+    display: flex;
+    justify-content: center;
+    padding: 1.5em;
+}
+
+.features__list {
+    display: grid;
+    gap: 5em;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 52rem;
+}
+
+.features__item {
+    text-align: center;
+}
+
+.features__icon {
+    margin-inline: auto;
 }
