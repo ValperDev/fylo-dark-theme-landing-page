@@ -23,6 +23,8 @@ a {
 }
 
 body {
+    background-color: var(--dark-blue-main-bg);
+    color: var(--white);
     min-height: 100dvh;
 }
 
