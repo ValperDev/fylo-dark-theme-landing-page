@@ -9,6 +9,30 @@
     --white: hsl(0, 0%, 100%);
 }
 
+@font-face {
+    font-family: "OpenSans";
+    src: url("./fonts/OpenSans-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("./fonts/OpenSans-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("./fonts/Raleway-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("./fonts/Raleway-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
 *,
 *::after,
 *::before {
@@ -25,6 +49,7 @@ a {
 body {
     background-color: var(--dark-blue-email-bg);
     color: var(--white);
+    font-family: "OpenSans", sans-serif;
     min-height: 100dvh;
 }
 
