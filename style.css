@@ -69,11 +69,15 @@ ul {
     list-style: none;
 }
 
-.features {
+.features,
+.productivity {
     align-items: center;
     background-color: var(--dark-blue-main-bg);
     display: flex;
     justify-content: center;
+}
+
+.features {
     padding: 1.5em;
 }
 
