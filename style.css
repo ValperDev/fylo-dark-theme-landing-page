@@ -50,7 +50,13 @@ body {
     background-color: var(--dark-blue-email-bg);
     color: var(--white);
     font-family: "OpenSans", sans-serif;
+    font-size: 0.875rem;
     min-height: 100dvh;
+}
+
+h1,
+h2 {
+    font-family: "Raleway", sans-serif;
 }
 
 img {
@@ -94,4 +100,54 @@ ul {
 
 .features__icon {
     margin-inline: auto;
+}
+
+.productivity {
+    padding: 6em 2em;
+}
+
+.productivity__content {
+    align-items: center;
+    display: flex;
+    gap: 3.5em;
+    max-width: 70rem;
+}
+
+.productivity__image,
+.productivity__text {
+    flex-basis: 50%;
+}
+
+.productivity__text {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.productivity__title {
+    font-size: 2.6rem;
+    letter-spacing: .02em;
+    line-height: 1.2;
+}
+
+.productivity__description {
+    line-height: 1.6;
+}
+
+.productivity__link {
+    align-items: center;
+    color: var(--cyan);
+    display: flex;
+    gap: .5em;
+    position: relative;
+}
+
+.productivity__link::after {
+    background-color: var(--cyan);
+    bottom: 0;
+    content: "";
+    height: 1px;
+    width: 100%;
+    position: absolute;
 }
